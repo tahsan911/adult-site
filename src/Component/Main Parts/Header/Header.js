@@ -19,7 +19,7 @@ const Header = () => {
                 <div className="col col-lg-4">
                     <div className="d-flex justify-content-center align-items-start">
                         <div>
-                        <Dropdown>
+                        <Dropdown className='me-3'>
                             <Dropdown.Toggle variant="transparent" id="dropdown-basic" className='text-white'>
                                 Language <ReactCountryFlag className='ms-1' countryCode="US"></ReactCountryFlag>
                             </Dropdown.Toggle>
@@ -60,7 +60,7 @@ const Header = () => {
                         </Dropdown>
                     </div>
                     <div>
-                        <Dropdown>
+                        <Dropdown className='me-3'>
                             <Dropdown.Toggle variant="transparent" id="dropdown-basic" className='text-white'>
                                 Content
                             </Dropdown.Toggle>
