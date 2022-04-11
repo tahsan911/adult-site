@@ -1,8 +1,9 @@
+
 .background-img{
     background-image: url('../../../Images/top-stripe.png');
     background-size: auto;
-    height: 6.1vw;
     padding: 10px 0;
+    background-color: #000090;
 }
 .font{
     font-size: 14px;
